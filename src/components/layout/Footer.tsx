@@ -82,14 +82,24 @@ const Footer: React.FC = () => {
 
         {/* Right Section (Google Maps iframe) */}
         <div className="lg:w-1/2">
-          <iframe
-            loading="lazy"
-            src="https://maps.google.com/maps?q=Taxroof%20Consultancy%20Private%20Limited%20gadag&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near"
-            title="Taxroof Consultancy Private Limited gadag"
-            aria-label="Taxroof Consultancy Private Limited gadag"
-            height={400}
-            width={700}
-          ></iframe>
+          <div
+            style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}
+          >
+            <iframe
+              loading="lazy"
+              src="https://maps.google.com/maps?q=Taxroof%20Consultancy%20Private%20Limited%20gadag&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near"
+              title="Taxroof Consultancy Private Limited gadag"
+              aria-label="Taxroof Consultancy Private Limited gadag"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                border: 0,
+              }}
+            ></iframe>
+          </div>
         </div>
       </div>
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 const HomeLayout: React.FC = () => {
   return (
     <div className="bg-gradient-to-r from-teal-950 to-blue-950 text-white transition-colors duration-300">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center px-6  gap-8">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center px-6 mb-8  gap-8">
         {/* Left Section */}
         <div className="lg:w-1/2 my-12">
           <Image
