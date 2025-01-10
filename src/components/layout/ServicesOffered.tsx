@@ -1,11 +1,10 @@
-// components/ServicesOffered.tsx
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const services = [
   {
     title: "GST Returns",
     description: "Complete end-to-end services for Tax Professionals.",
-    isHighlighted: true,
   },
   {
     title: "GSTR-9 and 9C",
@@ -46,17 +45,31 @@ const services = [
     description:
       "Unique Waves Consultancy Private Limited Raison Fincap Private Limited.",
   },
+  {
+    title: "Business Consulting",
+    description:
+      "Expert business consulting services to help you grow and succeed.",
+  },
+  {
+    title: "Financial Planning",
+    description:
+      "Comprehensive financial planning services to secure your future.",
+  },
+  {
+    title: "Tax Advisory",
+    description:
+      "Professional tax advisory services to optimize your tax strategy.",
+  },
 ];
 
 const ServicesOffered: React.FC = () => {
+  const [highlightedIndex, setHighlightedIndex] = useState<number | null>(null);
+
   return (
     <section className="bg-gray-100 dark:bg-gray-800 py-12 transition-colors duration-300">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-10">
-          <h2 className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase">
-            Finance Consulting
-          </h2>
           <h1 className="text-3xl font-bold text-gray-800 dark:text-white">
             Services Offered
           </h1>
@@ -71,15 +84,17 @@ const ServicesOffered: React.FC = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-6 rounded-lg shadow-md ${
-                service.isHighlighted
+              onMouseEnter={() => setHighlightedIndex(index)}
+              onMouseLeave={() => setHighlightedIndex(null)}
+              className={`p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 ${
+                highlightedIndex === index
                   ? "bg-blue-900 text-white"
                   : "bg-white dark:bg-gray-700"
               }`}
             >
               <div
                 className={`w-10 h-10 flex items-center justify-center rounded-full mb-4 ${
-                  service.isHighlighted
+                  highlightedIndex === index
                     ? "bg-green-500 text-white"
                     : "bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-300"
                 }`}
@@ -101,7 +116,7 @@ const ServicesOffered: React.FC = () => {
               </div>
               <h3
                 className={`text-xl font-bold ${
-                  service.isHighlighted
+                  highlightedIndex === index
                     ? "text-white"
                     : "text-gray-800 dark:text-white"
                 }`}
@@ -110,7 +125,7 @@ const ServicesOffered: React.FC = () => {
               </h3>
               <p
                 className={`mt-2 ${
-                  service.isHighlighted
+                  highlightedIndex === index
                     ? "text-gray-200"
                     : "text-gray-600 dark:text-gray-400"
                 }`}

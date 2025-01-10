@@ -32,14 +32,6 @@ const Navbar: React.FC = () => {
             className="object-contain"
           />
         </div>
-
-        {/* Theme Toggle Button */}
-        <button
-          onClick={toggleTheme}
-          className="text-white bg-gray-700 hover:bg-gray-600 dark:bg-gray-600 dark:hover:bg-gray-500 px-4 py-2 rounded"
-        >
-          {theme === "light" ? "Dark Mode" : "Light Mode"}
-        </button>
       </div>
     </nav>
   );
