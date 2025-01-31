@@ -61,7 +61,7 @@ const HomeLayout: React.FC = () => {
             savings.
           </p>
           <a
-            href="tel:+918097262227"
+            href="tel:+917204234244"
             className="text-blue-400 hover:text-blue-600"
           >
             <button className="mt-6 px-6 py-3 bg-teal-450 text-teal-950 rounded-lg hover:bg-gray-950 hover:text-teal-400 transition">
