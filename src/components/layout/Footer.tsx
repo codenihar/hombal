@@ -117,7 +117,9 @@ const Footer: React.FC = () => {
 
       {/* Bottom Section */}
       <div className="mt-8 text-center border-t border-gray-700 pt-4">
-        <p className="text-lg">© Copyright Taxroof. All rights reserved.</p>
+        <p className="text-lg">
+          © Copyright Hombal & Associates. All rights reserved.
+        </p>
       </div>
     </footer>
   );
