@@ -3,28 +3,24 @@ import Image from "next/image";
 const MissionAndVisionSection: React.FC = () => {
   const visionPoints = [
     {
-      title: "Empowering Financial Success",
+      title: "Trusted Financial Partner",
       description:
-        "Delivering innovative and tailored solutions to help clients achieve their financial goals.",
+        "Recognized for our unwavering commitment to excellence, innovation, and client success.",
     },
     {
-      title: "Commitment to Excellence",
+      title: "Delivering Excellence",
       description:
-        "Upholding integrity and precision in every service we provide.",
+        "Ensuring quality in every aspect of our work, from audit and taxation to financial advisory and business consultation.",
     },
     {
-      title: "Building Trust",
+      title: "Empowering Clients",
       description:
-        "Fostering long-term partnerships with a client-first approach.",
+        "Providing knowledge, insights, and strategies to help clients make informed financial decisions.",
     },
     {
-      title: "Sustainability",
-      description: "Promoting sustainable practices in all our operations.",
-    },
-    {
-      title: "Innovation",
+      title: "Enhancing Financial Well-being",
       description:
-        "Continuously innovating to provide the best solutions for our clients.",
+        "Supporting client growth through financial empowerment and strategic planning.",
     },
   ];
 
@@ -35,7 +31,7 @@ const MissionAndVisionSection: React.FC = () => {
         <div>
           <Image
             src="/calculator.webp" // Replace with actual image path
-            alt="Team Discussion"
+            alt="Financial Strategy"
             width={600}
             height={400}
             className="rounded-lg shadow-lg"

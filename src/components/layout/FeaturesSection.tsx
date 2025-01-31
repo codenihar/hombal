@@ -20,13 +20,13 @@ const FeaturesSection: React.FC = () => {
       icon: <FaChartLine className="text-blue-500 text-3xl" />,
       title: "Saving Money",
       description:
-        "TAXROOF helps you maximize savings by identifying eligible deductions and optimizing your tax strategy.",
+        "We help you maximize savings by identifying eligible deductions and optimizing your tax strategy.",
     },
     {
       icon: <FaUserTie className="text-blue-500 text-3xl" />,
       title: "Personal Expert Assisted",
       description:
-        "Get personalized, expert-assisted tax solutions tailored to your unique financial needs with TAXROOF.",
+        "Get personalized, expert-assisted tax solutions tailored to your unique financial needs with Hombal & Associates.",
     },
     {
       icon: <FaRegSmile className="text-blue-500 text-3xl" />,

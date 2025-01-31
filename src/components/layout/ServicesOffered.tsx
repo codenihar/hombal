@@ -7,11 +7,6 @@ const services = [
     description: "Complete end-to-end services for Tax Professionals.",
   },
   {
-    title: "GSTR-9 and 9C",
-    description:
-      "Your GST Annual Return will be prepared and filed by our experienced team.",
-  },
-  {
     title: "Internal Audit",
     description:
       "We provide internal audit services basis on your requirements.",
@@ -26,11 +21,6 @@ const services = [
     description: "Efficient and reliable Income Tax filing services.",
   },
   {
-    title: "GST Reconciliation",
-    description:
-      "Specialized services for Tax Professionals to reconcile ITC credit and file returns or reply notices.",
-  },
-  {
     title: "Expert Advice",
     description:
       "Our team will provide you with expert advice you need for departments queries.",
@@ -39,11 +29,6 @@ const services = [
     title: "TDS / TCS Returns",
     description:
       "Comprehensive TDS and TCS returns filing services with accuracy and compliance.",
-  },
-  {
-    title: "Associated Concerns",
-    description:
-      "Unique Waves Consultancy Private Limited Raison Fincap Private Limited.",
   },
   {
     title: "Business Consulting",

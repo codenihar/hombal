@@ -15,17 +15,28 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-8 lg:space-y-0">
         {/* Left Section */}
         <div className="lg:w-1/2 space-y-4">
-          <h2 className="text-2xl font-bold">Pick the call, it is Taxroof</h2>
+          <h2 className="text-2xl font-bold">
+            Pick the call, it is Hombal & Associates
+          </h2>
           <p className="text-lg">
             Simplify your Return Filing process with our user-friendly platform.
           </p>
           <div className="flex items-center space-x-3 text-lg">
             <FaMapMarkerAlt className="text-blue-400" />
             <p>
-              <strong>Taxroof Consultancy Private Limited</strong> <br />
-              Opp Police Guest House <br />
-              Near KEB Office, Mulgund Naka Road, <br />
-              Gadag-Betageri, Karnataka 582101
+              <strong>Hombal & Associates Chartered Accountants</strong> <br />
+              H.O: Shop No GF -08, The Springs building, <br />
+              Unakal Bypass Road, <br />
+              Hosur, Hubli - 580029.
+            </p>
+          </div>
+          <div className="flex items-center space-x-3 text-lg">
+            <FaMapMarkerAlt className="text-blue-400" />
+            <p>
+              <strong>Hombal & Associates Chartered Accountants</strong> <br />
+              B.O: Shop No 31, 1 st Floor, Guggari complex, <br />
+              Station Road, <br />
+              Gadag - 582101.
             </p>
           </div>
           <div className="flex items-center space-x-3 text-lg">
@@ -33,10 +44,10 @@ const Footer: React.FC = () => {
             <p>
               <strong>Contact:</strong>{" "}
               <a
-                href="tel:+918097262227"
+                href="tel:+917204234244"
                 className="text-blue-400 hover:text-blue-600"
               >
-                +91-80972 62227
+                +91-7204234244
               </a>
             </p>
           </div>
@@ -45,10 +56,10 @@ const Footer: React.FC = () => {
             <p>
               <strong>Email:</strong>{" "}
               <a
-                href="mailto:contact@taxroof.in"
+                href="mailto:jagadish.b07@gmail.com"
                 className="text-blue-400 hover:text-blue-600"
               >
-                contact@taxroof.in
+                jagadish.b07@gmail.com
               </a>
             </p>
           </div>
@@ -87,9 +98,9 @@ const Footer: React.FC = () => {
           >
             <iframe
               loading="lazy"
-              src="https://maps.google.com/maps?q=Taxroof%20Consultancy%20Private%20Limited%20gadag&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near"
-              title="Taxroof Consultancy Private Limited gadag"
-              aria-label="Taxroof Consultancy Private Limited gadag"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.067846709083!2d75.6329236!3d15.4314572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8f9004109c581%3A0x46fea42680b8a5fd!2sHombal%20%26%20Associates%2C%20Gadag!5e0!3m2!1sen!2sin!4v1706692838143!5m2!1sen!2sin"
+              title="Hombal & Associates, Gadag"
+              aria-label="Hombal & Associates, Gadag"
               style={{
                 position: "absolute",
                 top: 0,
@@ -98,6 +109,7 @@ const Footer: React.FC = () => {
                 height: "100%",
                 border: 0,
               }}
+              allowFullScreen
             ></iframe>
           </div>
         </div>

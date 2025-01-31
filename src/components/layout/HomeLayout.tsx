@@ -20,8 +20,13 @@ const HomeLayout: React.FC = () => {
             Unlock the Secret of Tax Savings
           </h1>
           <p className="text-gray-300 dark:text-gray-400 text-lg mt-4">
-            Our tax experts will help you discover every deduction and credit
-            available to you, so you can save big on your taxes.
+            Hombal & Associates is a professionally managed CA firm engaged in
+            providing various services relating to Audit and HOMBAL & ASSOCIATES
+            Assurance, Taxation and Corporate entity Compliance, Financial
+            advisory, Business consultation, Income Tax, GST and TDS returns
+            filing services to number of clients engaged in various sectors. The
+            team at the firm has dedicated Chartered accountants to provide end
+            to end services.
           </p>
           <button
             className="bg-green-400 text-blue-900 font-semibold px-6 py-3 rounded mt-6 hover:bg-green-500 dark:bg-green-500 dark:text-gray-900 transition"
