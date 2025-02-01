@@ -14,7 +14,7 @@ const HomeLayout: React.FC = () => {
             className="object-contain my-12"
           />
           <h2 className="text-green-300 text-lg font-semibold">
-            EMPOWER YOUR BRAND
+            HOMBAL & ASSOCIATES CHARTERED ACCOUNTANTS
           </h2>
           <h1 className="text-4xl lg:text-5xl font-bold mt-4">
             Unlock the Secret of Tax Savings
