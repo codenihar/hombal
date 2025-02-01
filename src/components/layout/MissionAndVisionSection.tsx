@@ -51,10 +51,10 @@ const MissionAndVisionSection: React.FC = () => {
               >
                 <span className="text-green-500 text-2xl">➔</span>
                 <div>
-                  <h3 className="text-xl font-bold text-gray-800 dark:text-gray-200">
+                  <h3 className="text-xl font-bold text-gray-300 dark:text-gray-400">
                     {point.title}
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-400 mt-1">
+                  <p className="text-gray-400 dark:text-gray-500 mt-1">
                     {point.description}
                   </p>
                 </div>

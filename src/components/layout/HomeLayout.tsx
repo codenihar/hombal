@@ -13,10 +13,11 @@ const HomeLayout: React.FC = () => {
             height={120}
             className="object-contain my-12"
           />
-          <h2 className="text-green-300 text-lg font-semibold">
-            HOMBAL & ASSOCIATES CHARTERED ACCOUNTANTS
+          <h2 className="text-green-300 text-5xl text-lg font-semibold">
+            HOMBAL & ASSOCIATES{" "}
+            <span className="text-3xl">CHARTERED ACCOUNTANTS</span>
           </h2>
-          <h1 className="text-4xl lg:text-5xl font-bold mt-4">
+          <h1 className="text-3xl font-bold mt-4">
             Unlock the Secret of Tax Savings
           </h1>
           <p className="text-gray-300 dark:text-gray-400 text-lg mt-4">
